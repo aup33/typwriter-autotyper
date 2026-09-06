@@ -1,3 +1,14 @@
+// ==UserScript==
+// @name         Autotypper 
+// @namespace    http://tampermonkey.net/
+// @version      2026-09-06
+// @description  just a typewriter cheat
+// @author       You
+// @match        https://*.typewriter.at/index.php?r=typewriter/runLevel
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=typewriter.at
+// @grant        none
+// ==/UserScript==
+
 (() => {
   const SELECTOR = '#text_todo_1 > span';
 
